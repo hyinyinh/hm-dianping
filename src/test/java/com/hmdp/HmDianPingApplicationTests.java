@@ -10,13 +10,4 @@ import javax.annotation.Resource;
 @SpringBootTest
 class HmDianPingApplicationTests {
 
-    @Resource
-    private ShopServiceImpl shopService;
-
-    @Test
-    void testShop(){
-        shopService.saveShop2Redis(1L,10L);
-    }
-
-
 }
